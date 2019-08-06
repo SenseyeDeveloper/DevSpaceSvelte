@@ -1,0 +1,13 @@
+version: "2"
+
+services:
+  devspace_frontend:
+    container_name: "devspace_svelte_frontend"
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    working_dir: /usr/local/app
+    volumes:
+      - .:/usr/local/app
+      - ./docker/.bash_history:/root/.bash_history:ro
+    command: "sleep 1d"

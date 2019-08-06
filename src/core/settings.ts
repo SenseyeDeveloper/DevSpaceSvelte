@@ -1,0 +1,3 @@
+export const COMPANY_HINT_LIMIT = 25;
+export const CITY_HINT_LIMIT = 25;
+export const MAX_HINT_LIMIT = Math.max(COMPANY_HINT_LIMIT, CITY_HINT_LIMIT);

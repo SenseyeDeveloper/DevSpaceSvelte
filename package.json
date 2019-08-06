@@ -1,0 +1,31 @@
+{
+  "name": "devspace",
+  "version": "1.0.0",
+  "description": "devspace.com.ua on Svelte",
+  "main": "public/js/app.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SenseyeDeveloper/DevSpaceSvelte.git"
+  },
+  "author": "SenseyeDeveloper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SenseyeDeveloper/DevSpaceSvelte/issues"
+  },
+  "homepage": "https://github.com/SenseyeDeveloper/DevSpaceSvelte#readme",
+  "dependencies": {
+    "@google/markerclusterer": "^1.0.3",
+    "rollup": "^1.16.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.1.0",
+    "rollup-plugin-terser": "^5.0.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "svelte": "^3.6.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.2"
+  }
+}
