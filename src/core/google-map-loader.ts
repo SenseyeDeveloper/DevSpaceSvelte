@@ -129,6 +129,6 @@ function load() {
 
     const googleapis = document.createElement("script");
     googleapis.type = "text/javascript";
-    googleapis.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyC77lHMytBqt0YQbjoWYd0EFknzq03NSKI&callback=gim";
+    googleapis.src = "https://maps.googleapis.com/maps/api/js?key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&callback=gim";
     document.body.appendChild(googleapis);
 }
